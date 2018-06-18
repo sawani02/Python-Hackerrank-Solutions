@@ -1,0 +1,19 @@
+# Problem link: https://www.hackerrank.com/challenges/py-if-else/problem
+if __name__ == '__main__':
+    n = int(input())
+    num = n%2
+    
+    
+    if num == 0 and (n > 20):
+        print('Not Weird')
+        
+    # n is even and in the inclusive range of 2 to 5, print Not Weird
+    elif num == 0 and (2<= n <=5):
+        print('Not Weird')
+        
+    #n even and in the inclusive range of 6 to 20 , print Weird   
+    elif num == 0 and (6<= n <=20):
+        print('Weird')
+        
+    elif num != 0:
+        print('Weird')
